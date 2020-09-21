@@ -9,7 +9,7 @@
     "start": "webpack-dev-server  --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js",
     "lint": "eslint src",
-    "test": "exit code 0",
+    "test": "exit 0",
     "coverage": "jest --testPathPattern=./src/ --coverage"
   },
   "devDependencies": {
